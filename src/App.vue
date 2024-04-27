@@ -27,7 +27,7 @@ export default{
   },
   methods:{
     async fetchcomputers(){
-      const res = await fetch('https://finaljs-spme.onrender.com/api');
+      const res = await fetch('https://sandeep-computerstore-backend.onrender.com');
       const data = await res.json()
       console.log(data)
       return data
