@@ -27,7 +27,7 @@ export default{
   },
   methods:{
     async fetchcomputers(){
-      const res = await fetch('https://sandeep-computerstore-backend.onrender.com');
+      const res = await fetch('https://sandeep-computerstore-backend.onrender.com/api');
       const data = await res.json()
       console.log(data)
       return data
